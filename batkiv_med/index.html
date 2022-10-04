@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Батьків мед</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Source+Sans+Pro:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="./js/main.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="uk-container">
+        <nav class="uk-navbar-container uk-navbar-transparent nav" uk-navbar>
+          <div class="uk-navbar-left">
+            <a class="uk-navbar-item uk-logo" href="#">
+              <img src="./src/img/Logo1.svg" alt="logo"
+            /></a>
+          </div>
+          <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav">
+              <li>
+                <a class="nav-item" href="#">Головна</a>
+              </li>
+              <li>
+                <a class="nav-item" href="#">Продукція</a>
+              </li>
+              <li>
+                <a class="nav-item" href="#">Відгуки</a>
+              </li>
+              <li>
+                <a class="nav-item" href="#">Контакти</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <div uk-slideshow>
+          <ul class="uk-slideshow-items">
+            <li>
+              <div
+                class="uk-position-center uk-position-small uk-text-center uk-child-width-expand uk-grid-small"
+                uk-grid
+              >
+                <div class="uk-width-xlarge">
+                  <h1 class="header__title uk-margin-remove uk-text-left">
+                    Справжній мед
+                  </h1>
+                  <p class="header__text uk-margin-remove uk-text-left">
+                    з любов’ю від квітучої Полтавщини
+                  </p>
+                  <a
+                    class="uk-button btn uk-position-center-left uk-margin-small-left"
+                    href="#modal-sections"
+                    uk-toggle
+                    >залишити заявку</a
+                  >
+
+                  <div id="modal-sections" uk-modal>
+                    <div class="uk-modal-dialog">
+                      <button
+                        class="uk-modal-close-default"
+                        type="button"
+                        uk-close
+                      ></button>
+                      <div class="uk-modal-header">
+                        <h2 class="uk-modal-title">
+                          Залиште свій номер і ми Вам зателефонуємо
+                        </h2>
+                      </div>
+                      <div class="uk-modal-body">
+                        <form>
+                          <input
+                            class="uk-input uk-form-blank uk-form-width-medium"
+                            type="tel"
+                            placeholder="+380 00 000 0000"
+                          />
+                        </form>
+                      </div>
+                      <div class="uk-modal-footer uk-text-right">
+                        <button
+                          class="uk-button uk-button-default uk-modal-close"
+                          type="button"
+                        >
+                          Відмінити
+                        </button>
+                        <button
+                          class="uk-button uk-button-primary"
+                          type="button"
+                        >
+                          Відправити
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="">
+                  <img src="./src/img/Honey.png" alt="" />
+                </div>
+              </div>
+            </li>
+            <li></li>
+            <li></li>
+          </ul>
+          <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="our-apiary uk-section">
+        <div class="uk-container uk-inline">
+          <h2 class="title">Власна пасіка</h2>
+          <div
+            class="our-apiary__content uk-margin-large-bottom uk-position-small uk-child-width-expand uk-grid-small"
+            uk-grid
+          >
+            <div class="uk-margin-medium-right">
+              <p class="our-apiary__text">
+                Наша пасіка розташована у мальовничому місці на Полтавщині, де
+                квітує величезна кількість полів з яскравим різноманіттям
+                рослин, що в свою чергу дарує нам неповторний мед.
+              </p>
+              <p class="our-apiary__text">
+                Найкращим свідченням якості нашої продукції є те, що вся наша
+                родина від малого до великого її вживає, користується нею та
+                обожнює, оскільки вона смачна, корисна, надає енергії та
+                допомагає бути здоровими, сильними та гарними .
+              </p>
+            </div>
+            <div>
+              <img class="uk-margin" src="./src/img/section-one.png" alt="" />
+              <img class="" src="./src/img/Arrow.svg" alt="" />
+            </div>
+          </div>
+          <div class="uk-position-bottom-center">
+            <a href="#" class="our-apiary__link uk-button-link"
+              >Більше про нас <span uk-icon="chevron-down"></span
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="best-honey uk-section">
+        <div class="uk-container uk-inline">
+          <h1 class="title">Кращий вибір меду</h1>
+          <div
+            class="best-honey__content uk-container uk-position-small uk-child-width-expand uk-grid-small"
+            uk-grid
+          >
+            <div>
+              <img class="uk-margin" src="./src/img/best-honey.png" alt="" />
+              <img class="" src="./src/img/Arrow.svg" alt="" />
+            </div>
+            <div class="uk-margin-medium-left">
+              <p class="best-honey__text">
+                Щедрі подарунки природи балують людину тисячоліттями. Одним з
+                них є квітковий бджолиний мед – результат копіткої діяльності
+                смугастих трудівниць та людей. Цей натуральний продукт бджоли
+                виробляють з нектару, зібраного на луках з незліченною кількістю
+                квітучих рослин. Такі ласощі мають неповторний аромат, містить у
+                собі масу корисних речовин, здатні принести користь і дорослим,
+                і дітям.
+              </p>
+              <p class="best-honey__text">
+                Влітку мед квітковий можна купити в рідкому текучому стані. Нова
+                викачка цим і цінна. Тим не менш, згодом такі ласощі
+                наполягають, набуваючи в смаку та ароматі нових ноток. Не
+                секрет, що мед бджолиний натуральний часто досить дорогий. Це не
+                викликає подиву хоча б тому, що бджільництво – дуже копітка,
+                важка і витратна праця.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="products uk-section">
+        <div class="uk-container uk-inline">
+          <h2 class="title">Продукція</h2>
+          <div
+            class="uk-slider-container-offset"
+            uk-slider="autoplay:true pause-on-hover: true autoplay-interval: 4000 "
+            tabindex="-1"
+          >
+            <div
+              class="uk-position-relative uk-visible-toggle uk-text-center uk-dark"
+            >
+              <ul
+                class="uk-slider-items uk-child-width-1-4@s uk-child-width-1-3@m uk-grid"
+                uk-height-viewport=""
+              >
+                <li>
+                  <div>
+                    <div>
+                      <img src="./src/img/shishmed 1.png" alt="" />
+                    </div>
+                    <div
+                      class="uk-position-center uk-panel uk-flex uk-flex-column"
+                    >
+                      <h3 class="products__title">Липовий мед</h3>
+                      <span class="products__subtitle uk-margin-small-bottom"
+                        >Врожай 2022, 1 л</span
+                      >
+                      <span class="products__status uk-margin-small-bottom"
+                        >У наявності</span
+                      >
+                      <span class="products__price">300₴</span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="">
+                    <div>
+                      <img src="./src/img/Honey Photo Pump.png" alt="" />
+                    </div>
+                    <div
+                      class="uk-position-center uk-panel uk-flex uk-flex-column"
+                    >
+                      <h3 class="products__title">Квітковий мед</h3>
+                      <span class="products__subtitle uk-margin-small-bottom"
+                        >Врожай 2022, 1 л</span
+                      >
+                      <span class="products__status_not uk-margin-small-bottom"
+                        >Немає в наявності</span
+                      >
+                      <span class="products__price">300₴</span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="">
+                    <img src="./src/img/shishmed 1.png" alt="" />
+                    <div
+                      class="uk-position-center uk-panel uk-flex uk-flex-column"
+                    >
+                      <h3 class="products__title">Квітковий мед</h3>
+                      <span class="products__subtitle uk-margin-small-bottom"
+                        >Врожай 2022, 1 л</span
+                      >
+                      <span class="products__status uk-margin-small-bottom"
+                        >У наявності</span
+                      >
+                      <span class="products__price">300₴</span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="">
+                    <img src="./src/img/Honey Photo Pump.png" alt="" />
+                    <div
+                      class="uk-position-center uk-panel uk-flex uk-flex-column"
+                    >
+                      <h3 class="products__title">Квітковий мед</h3>
+                      <span class="products__subtitle uk-margin-small-bottom"
+                        >Врожай 2022, 1 л</span
+                      >
+                      <span class="products__status uk-margin-small-bottom"
+                        >У наявності</span
+                      >
+                      <span class="products__price">300₴</span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="">
+                    <img src="./src/img/Honey Photo Pump.png" alt="" />
+                    <div
+                      class="uk-position-center uk-panel uk-flex uk-flex-column"
+                    >
+                      <h3 class="products__title">Квітковий мед</h3>
+                      <span class="products__subtitle uk-margin-small-bottom"
+                        >Врожай 2022, 1 л</span
+                      >
+                      <span class="products__status uk-margin-small-bottom"
+                        >У наявності</span
+                      >
+                      <span class="products__price">300₴</span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="">
+                    <img src="./src/img/Honey Photo Pump.png" alt="" />
+                    <div
+                      class="uk-position-center uk-panel uk-flex uk-flex-column"
+                    >
+                      <h3 class="products__title">Квітковий мед</h3>
+                      <span class="products__subtitle uk-margin-small-bottom"
+                        >Врожай 2022, 1 л</span
+                      >
+                      <span class="products__status uk-margin-small-bottom"
+                        >У наявності</span
+                      >
+                      <span class="products__price">300₴</span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+
+              <a
+                class="uk-position-center-left uk-position-small uk-hidden-hover uk-slidenav-large"
+                href="#"
+                uk-slidenav-previous
+                uk-slider-item="previous"
+              ></a>
+              <a
+                class="uk-position-center-right uk-position-small uk-hidden-hover uk-slidenav-large"
+                href="#"
+                uk-slidenav-next
+                uk-slider-item="next"
+              ></a>
+            </div>
+          </div>
+          <a
+            class="uk-button btn uk-position-bottom-center"
+            href="#modal-sections"
+            uk-toggle
+            >замовити</a
+          >
+        </div>
+      </div>
+
+      <div class="uk-section reviews">
+        <div
+          class="uk-slider-container-offset uk-inline"
+          uk-slider="center: true autoplay: true pause-on-hover:true autoplay-interval: 4000"
+          tabindex="-1"
+        >
+          <div
+            class="uk-position-relative uk-visible-toggle uk-text-center uk-margin-small-bottom"
+          >
+            <ul
+              class="uk-slider-items uk-child-width-1-4@s uk-child-width-1-2@m uk-grid"
+            >
+              <li>
+                <div class="uk-card uk-card-primary card">
+                  <div class="uk-card-header">
+                    <div class="uk-grid-small uk-flex-column" uk-grid>
+                      <div class="uk-card-body">
+                        <p class="reviews__text">
+                          «Брав липовий - сподобався, вирішив взяти акацієвий,
+                          здивований, що такий рідкий, але дуже смачний. Планую
+                          спробувати усі різновидності. Дякую за швидке
+                          оформлення замовлення та доставку. Все на висоті,
+                          рекомендую!»
+                        </p>
+                      </div>
+                      <div class="uk-width-auto">
+                        <img
+                          class="uk-border-circle"
+                          width="92"
+                          height="92"
+                          src="./src/img/userfoto.png"
+                          alt="Avatar"
+                        />
+                      </div>
+                      <div class="uk-width-expand">
+                        <span class="reviews__text">Генадій</span>
+                        <p class="uk-text-meta uk-margin-remove-top">
+                          <time
+                            class="reviews__text"
+                            datetime="2022-08-16T19:00"
+                            >16.08.2022</time
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="uk-card uk-card-primary card">
+                  <div class="uk-card-header">
+                    <div class="uk-grid-small uk-flex-column" uk-grid>
+                      <div class="uk-card-body">
+                        <p class="reviews__text">
+                          «Брав липовий - сподобався, вирішив взяти акацієвий,
+                          здивований, що такий рідкий, але дуже смачний. Планую
+                          спробувати усі різновидності. Дякую за швидке
+                          оформлення замовлення та доставку. Все на висоті,
+                          рекомендую!»
+                        </p>
+                      </div>
+                      <div class="uk-width-auto">
+                        <img
+                          class="uk-border-circle"
+                          width="92"
+                          height="92"
+                          src="./src/img/userfoto.png"
+                          alt="Avatar"
+                        />
+                      </div>
+                      <div class="uk-width-expand">
+                        <span class="reviews__text">Генадій</span>
+                        <p class="uk-text-meta uk-margin-remove-top">
+                          <time
+                            class="reviews__text"
+                            datetime="2022-08-16T19:00"
+                            >16.08.2022</time
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="uk-card uk-card-primary card">
+                  <div class="uk-card-header">
+                    <div class="uk-grid-small uk-flex-column" uk-grid>
+                      <div class="uk-card-body">
+                        <p class="reviews__text">
+                          «Брав липовий - сподобався, вирішив взяти акацієвий,
+                          здивований, що такий рідкий, але дуже смачний. Планую
+                          спробувати усі різновидності. Дякую за швидке
+                          оформлення замовлення та доставку. Все на висоті,
+                          рекомендую!»
+                        </p>
+                      </div>
+                      <div class="uk-width-auto">
+                        <img
+                          class="uk-border-circle"
+                          width="92"
+                          height="92"
+                          src="./src/img/userfoto.png"
+                          alt="Avatar"
+                        />
+                      </div>
+                      <div class="uk-width-expand">
+                        <span class="reviews__text">Генадій</span>
+                        <p class="uk-text-meta uk-margin-remove-top">
+                          <time
+                            class="reviews__text"
+                            datetime="2022-08-16T19:00"
+                            >16.08.2022</time
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="uk-position-bottom-right uk-margin-xlarge-right">
+            <img src="./src/img/Arrow.svg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="call-me uk-section ">
+        <div class="uk-container uk-position-bottom-center">
+          <div>
+            <h2 class="title">Залишити заявку</h2>
+          </div>
+          <form>
+            <input
+              class="uk-input uk-form-blank uk-form-width-medium"
+              type="tel"
+              placeholder="+380 00 000 0000"
+            />
+          </form>
+          <button class="uk-button btn" href="">Відправити</button>
+        </div>
+      </div> -->
+    </main>
+    <footer></footer>
+  </body>
+</html>

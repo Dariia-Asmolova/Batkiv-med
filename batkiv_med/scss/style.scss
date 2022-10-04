@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 88px;
+}
+
+.btn {
+  background-color: #fac249;
+  color: #fff;
+  border-radius: 5px;
+  width: 209px;
+  height: 41px;
+  transition: ease-in-out 0.7s;
+}
+// .uk-margin-remove {
+//   color: #43403e;
+// }
+
+.header__title {
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 67px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.header__text {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  // max-width: 528px;
+}
+
+.header {
+  margin-bottom: 100px;
+}
+
+.our-apiary {
+  &__text {
+    font-family: Source Sans Pro;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+  }
+
+  &__link {
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 1.25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #c89617;
+    transition: ease-in-out 0.7s;
+  }
+}
+
+.best-honey {
+  &__text {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    text-align: left;
+  }
+}
+
+.products {
+  &__title {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #43403e;
+  }
+
+  &__snbtitle {
+    font-family: Source Sans Pro;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #43403e;
+  }
+
+  &__status {
+    font-family: Source Sans Pro;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #00936a;
+  }
+
+  &__status_not {
+    font-family: Source Sans Pro;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #c1554d;
+  }
+
+  &__price {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+}
+
+.card {
+  background-color: #fff8e8;
+}
+
+.reviews {
+  &__text {
+    color: #43403e;
+  }
+}
+
+// .uk-button-link {
+//   &:hover {
+//     transform: scale(1.1);
+//     transition: 0.5s ease;
+//   }
+// }
